@@ -123,6 +123,10 @@ Luego de la defensa el resultado puede ser:
 
 ## 4 - Descripción del Trabajo Práctico
 
+### 4.1 - Integrantes
+   * Cano Lautaro - 44961
+   * Lorenzotti Guido - 44800
+
 ### 4.1 - Enunciado del Trabajo Práctico
 Tomaremos como base la idea planteada por la cátedra en el TP 2017 de realizar una página similar a www.themoviedb.org simplificada. La misma lista diferentes películas y series, brinda información de las mismas (descripción, reparto, opiniones, trailers, etc.). Permite acceder además a la información de actores y productoras y desde allí visualizar películas y series en las que participaron. 
 También permite ingresar y/o registrarse como usuario. Estos pueden crear listas de películas, marcar favoritas, opinar sobre las mismas, entre otras funcionalidades.
@@ -142,6 +146,6 @@ También permite ingresar y/o registrarse como usuario. Estos pueden crear lista
   * Detalle de una película: al seleccionar una película, se mostrarán los datos de esta (Nombre, fecha de emisión, duración, sinopsis, etc.)
 
 ### 4.3 - Modelo de datos
-![alt text](http://url/to/img.png)
+![Alt text](https://github.com/Guido1312/tp-backend-2020/blob/master/TheMovieDB-ModeloDeDatos.jpg)
 
 
