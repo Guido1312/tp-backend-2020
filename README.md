@@ -118,3 +118,30 @@ Luego de la defensa el resultado puede ser:
 * Desarrollo a revisión - Defensa a repetir: se pactará una nueva fecha de entrega y defensa con el docente.
 
 [checklist]: ./checklist/README.md
+
+
+
+## 4 - Descripción del Trabajo Práctico
+
+### 4.1 - Enunciado del Trabajo Práctico
+Tomaremos como base la idea planteada por la cátedra en el TP 2017 de realizar una página similar a www.themoviedb.org simplificada. La misma lista diferentes películas y series, brinda información de las mismas (descripción, reparto, opiniones, trailers, etc.). Permite acceder además a la información de actores y productoras y desde allí visualizar películas y series en las que participaron. 
+También permite ingresar y/o registrarse como usuario. Estos pueden crear listas de películas, marcar favoritas, opinar sobre las mismas, entre otras funcionalidades.
+
+### 4.2 - Funcionalidad
+   * ABMC simple:
+     * Género (idGenero - descGenero)
+* ABMC dependiente:
+  * Persona (idPersona - nombrePersona -  biografia - fechaNacimiento - lugarNacimiento - instagramURL - twitterURL - facebookURL)
+  * Películas (idPelicula - nombrePelicula - sinopsis - trailerURL - duracion - fechaLanzamiento - presupuesto - recaudado - poster - paginaOficialURL)
+
+* Listados:
+  * Listado de películas: se mostrará un listado de todas las películas. A partir de aquí, mediante un filtro, el usuario tendrá la opción de visualizar solo las películas pertenecientes al género seleccionado, o buscar una película por su nombre.
+  * Reparto de una película: aquí, al elegir una película, podremos ver todos los actores que trabajaron en ella.
+
+* Detalles:
+  * Detalle de una película: al seleccionar una película, se mostrarán los datos de esta (Nombre, fecha de emisión, duración, sinopsis, etc.)
+
+### 4.3 - Modelo de datos
+![alt text](http://url/to/img.png)
+
+
