@@ -121,7 +121,7 @@ Luego de la defensa el resultado puede ser:
 
 
 
-## 4 - Descripción del Trabajo Práctico
+## 4 - Descripción del Trabajo Práctico (Grupo 9)
 
 ### 4.1 - Integrantes
    * Cano Lautaro - 44961
@@ -134,13 +134,13 @@ También permite ingresar y/o registrarse como usuario. Estos pueden crear lista
 ### 4.2 - Funcionalidad
    * ABMC simple:
      * Género (idGenero - descGenero)
+     * Persona (idPersona - nombrePersona -  biografia - fechaNacimiento - lugarNacimiento - instagramURL - twitterURL - facebookURL)
 * ABMC dependiente:
-  * Persona (idPersona - nombrePersona -  biografia - fechaNacimiento - lugarNacimiento - instagramURL - twitterURL - facebookURL)
   * Películas (idPelicula - nombrePelicula - sinopsis - trailerURL - duracion - fechaLanzamiento - presupuesto - recaudado - poster - paginaOficialURL)
 
 * Listados:
-  * Listado de películas: se mostrará un listado de todas las películas. A partir de aquí, mediante un filtro, el usuario tendrá la opción de visualizar solo las películas pertenecientes al género seleccionado, o buscar una película por su nombre.
-  * Reparto de una película: aquí, al elegir una película, podremos ver todos los actores que trabajaron en ella.
+  * Listado de películas por genero: se mostrará un listado de todas las películas. A partir de aquí, mediante un filtro, el usuario tendrá la opción de visualizar solo las películas pertenecientes al género seleccionado.
+  * Listado de películas por actor/director: Mediante un filtro, el usuario tendrá la opción de visualizar solo las películas en las que actuó/dirigió la persona seleccionada.
 
 * Detalles:
   * Detalle de una película: al seleccionar una película, se mostrarán los datos de esta (Nombre, fecha de emisión, duración, sinopsis, etc.)
